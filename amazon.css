@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dadada;
+    
+
+}
+
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#131921;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.nav1 img {
+    width:100px; 
+}
+.nav1 .deliver-country {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 10px;
+}
+
+.nav1 .deliver-country  p{
+    font-size: 13px;
+}
+.nav1 .deliver-country  img{
+    width: 25px;
+    height: 20px;
+}
+.input{
+ 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    max-width: 1000px;
+    border-radius: 5px;
+    margin-left: 10px;
+   
+}
+.input .All{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.036);
+   margin-right: 3px;
+   padding: 10px 10px;
+   gap: 3px;
+   color: black;
+  
+
+}
+
+.nav1 .dropdown{
+    width: 10px;
+    height: 8px;
+    cursor: pointer;
+}
+
+.input input{
+   
+    border: none;
+    outline: none;
+   padding-left: 10px;
+   width: 100%;
+  
+}
+.input .search{
+  max-width: 40px;
+    cursor: pointer;
+    background-color:gold;
+    border-radius: 0px 4px 4px 0px;
+    padding: 9px;
+    
+}
+.country{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.country .flag{
+    width: 35px;
+    height: 35px;
+  
+}
+.sign{
+    display: flex;
+    align-items: center;
+   font-size: 14px;
+   font-weight: bold;
+  margin-left: 10px;
+  gap:3px;
+}
+.purchases h5{
+    cursor: pointer;
+    margin-left: 20px;
+   
+}
+ 
+.shoppingCart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+   
+}
+.shoppingCart img{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    
+}
+.nav2{
+    display: flex;
+    background-color: #131921;
+    border-top: 1px solid;
+    align-items: center;
+    padding: 2px 5px;
+    
+}
+
+.nav2 .words{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    cursor: pointer;
+    transition: .8s;
+}
+.nav2 .words p{
+    padding: 4px;
+}
+.nav2 .words p:hover{
+    border: 1px solid #fff;
+   
+}
+
+.images-slider .backgroundimages {
+    display: flex;
+    overflow-y: hidden;
+}
+.image-slide{
+    max-width: 100%;
+    mask-image: linear-gradient(to bottom ,#000000 50%,transparent 100%);
+    
+}
+.arrow{
+    position: absolute;
+    top: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+ }
+
+  .arrow a{
+    width: 50px;
+    height: 70px;
+    background-color:#ffffff99;
+    margin: 10px;   
+ } 
+ .arrow img{
+     width: 25px;
+     margin-top: 50%;
+     margin-left: 10px;
+    } 
+
+
+.boxes img{
+    width: 200px;
+    height: 180px;
+    border-radius: 20px;
+}
+.margin-box {
+    margin: -25vw 15px 15px 15px;
+
+}
+.boxes{
+  
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.boxes .col-1 h3  {
+   
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.boxes .col-1 p{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color: blue;
+}
+
+.boxes .col-1{
+    line-height: 25px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    z-index: 1;
+   
+}
+.scroll-products h2{
+    margin:30px 5px 15px 15px;
+    color: blue;
+}
+.scroll-products .scroll-images img{
+    width: 250px;
+    height: 180px;
+    margin-right: 5px;
+    margin-left: 10px;
+ 
+
+}
+.scroll-products .scroll-images{
+    display: flex;
+    margin:20px;
+    overflow-x:auto;
+    background-color: #fff;
+    padding: 5px;
+}
+.product-content{
+    width: 25%px;
+    margin: 10px;
+    line-height: 25px;
+   
+}
+
+.product-content img{
+    width: 250px;
+    height: 250px;
+    margin-right: 5px;
+   
+
+}
+.discount{
+    background-color: red;
+    margin: 3px;
+    padding: 4px;
+    border-radius: 2px;
+}
+.disount-deal{
+    display: flex;
+    align-items: center;
+   
+
+}
+.disount-deal span{
+    color: red;
+}
+.products{
+    display: flex;
+    background-color: #fff;
+    overflow-x: auto;
+}
+.seemore{
+    color: red;
+    font-size: 16px;
+  
+}
+
+.product-withprice h2{
+    margin-bottom: 10px;
+    color: blue;
+    margin-left: 10px;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin: 10px 5px;
+   background-color: #131921;
+   padding: 10px;
+   color: #fff;
+}
