@@ -1,0 +1,56 @@
+nav{
+    background-color: midnightblue;
+    padding: 15px 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 10px;
+    color: #fff;
+}
+.nav_logo img{
+    width: 130px;
+}
+nav .nav_search{
+    width: 40%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-radius:20px; 
+}
+nav .nav_search input{
+    width: 95%;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-weight: bold;
+   
+}
+nav .nav_search img{
+    width: 30px;
+}
+nav .nav_options{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    border: 1px solid gray;
+    padding: 6px;
+    border-radius: 5px;
+  
+}
+
+nav .nav_options .user_email{
+    color: gold;
+}
+nav .nav_cart{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+nav .nav_cart img{
+    width: 40px;
+    cursor: pointer;
+
+}

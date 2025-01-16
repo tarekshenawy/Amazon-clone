@@ -1,0 +1,25 @@
+
+.checkout_right{
+   max-width: 450px;
+    height: 150px;
+    border: 1px solid gray;
+    margin: 5px 10px;
+    padding: 10px 10px;
+    line-height: 40px;
+}
+.gift{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.proceed_checkout{
+    background-color: chocolate;
+    width: 200px;
+    height: 40px;
+    padding: 5px 5px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+
+}

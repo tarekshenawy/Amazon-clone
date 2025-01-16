@@ -1,0 +1,36 @@
+.payment_page{
+    padding: 20px 2%;
+}
+.delivery_address,.products_payment,.payment_box{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin: 20px 10px;
+}
+.payment_title{
+    text-align: center;
+    margin: 15px auto;
+}
+.products_payment_details{
+    display: flex;
+    flex-direction: column;
+}
+.payment_box form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 500px;
+}
+.payment_box button{
+    width: 300px;
+    height: 30px;
+    background-color: chocolate;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+.payment_box button:hover{
+    background-color: green;
+}

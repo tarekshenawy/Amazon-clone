@@ -1,0 +1,46 @@
+.product_details{
+    width: 500px;
+    border: 1px solid gray;
+    margin: 10px auto;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+}
+.product_details span{
+    font-weight: bold;
+    font-size: 18px;
+    color: blue;
+}
+.product_image{
+    width: 140px;
+    height: 140px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 25px;
+
+}
+.rating_icon{
+    width:130px;
+    height: 100px;
+}
+.product_details button{
+    height: 40px;
+    background-color: chocolate;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 17px;
+}
+.product_details button:hover{
+    background-color: green;
+    transition: .5s;
+}
+
+.product_details:hover .product_image{
+    transform: scale(1.3);
+    transition: .5s;
+} 
