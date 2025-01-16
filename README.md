@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-![Homepage Screenshot](.src/Components/Screenshots/projectimg.png)
+![Homepage Screenshot](./src/Components/Screenshots/projectimg.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
